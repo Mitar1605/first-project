@@ -1,0 +1,21 @@
+.mainShop{
+    display: flex;
+    width: 100%;
+}
+.shopIngridientsDiv{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shopBtnDiv{
+    margin: 15px;
+}
+.shopedDiv{
+    display: flex;
+    flex-direction: column;
+}

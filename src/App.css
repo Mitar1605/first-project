@@ -1,0 +1,17 @@
+.app{
+  width: 100%;
+  height: 100vh;
+}
+
+.content{
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.bodysP{
+  color: red;
+}
+.titlesP{
+  color: blue;
+}

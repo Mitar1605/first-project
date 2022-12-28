@@ -17,7 +17,7 @@ function ShowShop(props) {
 
     const [shoped, setShoped] = useState([])
     const [shopedMoney, setShopedMoney] = useState(0)
-    
+
     return (
         <div>
             <div className={"mainShop"}>

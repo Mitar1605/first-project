@@ -10,10 +10,7 @@ let shopIngridients = [
     {id: 5, name: "Հավի մսով շաուրմա", price: 1100},
 ]
 
-function ShowShop(props) {
-
-    let cash = props.cash
-    const [money, setMoney] = useState(cash)
+function ShowShop({money, setMoney}) {
 
     const [shoped, setShoped] = useState([])
     const [shopedMoney, setShopedMoney] = useState(0)

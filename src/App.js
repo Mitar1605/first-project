@@ -10,7 +10,7 @@ function App() {
         <div>
             <p>Ձեզ մոտ առկա գումարը` {money}.0 AMD</p>
         </div>
-      <ShowShop cash={money} />
+      <ShowShop money={money} setMoney={setMoney} />
     </div>
   );
 }
